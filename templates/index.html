@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Face Attendance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Live Face Attendance</h1>
+    <img src="{{ url_for('video_feed') }}" width="700" height="500">
+    <footer>Powered by Flask & OpenCV</footer>
+</body>
+</html>
